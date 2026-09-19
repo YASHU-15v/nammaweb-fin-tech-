@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nammaweb | Elite FinTech, AI & Analytics Training</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Nammaweb provides high-level training in Fin Tech AI & Analytics, Financial Modeling AI, SAP & ERP Intelligence, and Tax Automation.">
+    <meta name="keywords" content="FinTech AI, Analytics Training, B.Com, BBA, MBA, Financial Modeling, SAP ERP Intelligence, Tax Automation, Nammaweb">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandTeal: '#0F6561', /* Derived from the logo */
+                        brandGold: '#D4AF37',
+                        darkBg: '#080808',
+                        panelBg: '#121212'
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Lato"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #080808;
+            color: #f5f5f5;
+        }
+        /* WhatsApp Floating Button */
+        .whatsapp-popup {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .whatsapp-popup:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.6);
+        }
+        .whatsapp-popup svg {
+            width: 35px;
+            height: 35px;
+            fill: currentColor;
+        }
+        /* Luxury Gradient for Highlights */
+        .luxury-gradient {
+            background: linear-gradient(135deg, #0F6561 0%, #083b38 100%);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brandGold selection:text-black">
+
+    <!-- Navigation Header -->
+    <header class="fixed w-full top-0 z-50 bg-darkBg/90 backdrop-blur-md border-b border-gray-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <!-- Branding -->
+                <img src="logo.png" alt="Nammaweb Logo" class="h-16 w-auto object-contain">
+                <div class="flex flex-col">
+                    <span class="text-3xl font-serif font-bold tracking-widest text-brandTeal uppercase">Nammaweb</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-8">
+                <nav class="flex gap-6 text-sm tracking-widest uppercase font-semibold text-gray-300">
+                    <a href="#courses" class="hover:text-brandGold transition">Courses</a>
+                    <a href="#booking" class="hover:text-brandGold transition">Pricing</a>
+                    <a href="#blog" class="hover:text-brandGold transition">Insights</a>
+                </nav>
+                <div class="pl-6 border-l border-gray-700">
+                    <a href="mailto:info@nammaweb.com" class="text-sm font-semibold tracking-wide text-brandGold hover:text-white transition">info@nammaweb.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-40 pb-20 px-6 min-h-[90vh] flex items-center luxury-gradient relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+        <div class="max-w-7xl mx-auto relative z-10 text-center md:text-left">
+            <h1 class="text-5xl md:text-7xl font-serif font-bold leading-tight mb-6">
+                Master the Future of <br> <span class="text-brandGold">Finance & AI</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 font-light leading-relaxed">
+                Elite, high-level training programs designed for B.Com, BBA, and MBA professionals. Elevate your career with our advanced modules in AI Analytics, SAP, and Financial Automation.
+            </p>
+            <a href="#courses" class="inline-block border border-brandGold text-brandGold px-8 py-4 uppercase tracking-widest text-sm font-bold hover:bg-brandGold hover:text-black transition duration-300">
+                Explore Programs
+            </a>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-24 px-6 bg-darkBg">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-sm tracking-widest text-brandGold uppercase mb-2">Our Expertise</h2>
+                <h3 class="text-4xl font-serif font-bold">High-Level Training Programs</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-panelBg p-10 border border-gray-800 hover:border-brandTeal transition duration-300 group">
+                    <h4 class="text-2xl font-serif font-semibold mb-4 group-hover:text-brandTeal transition">Fin Tech AI & Analytics</h4>
+                    <p class="text-gray-400 text-sm mb-4">Tailored for B.Com / BBA / MBA students and professionals.</p>
+                    <p class="text-gray-500 font-light leading-relaxed">Master the intersection of financial technology and artificial intelligence. Learn predictive analytics, algorithmic trading concepts, and modern financial data interpretation.</p>
+                </div>
+                <!-- Course 2 -->
+                <div class="bg-panelBg p-10 border border-gray-800 hover:border-brandTeal transition duration-300 group">
+                    <h4 class="text-2xl font-serif font-semibold mb-4 group-hover:text-brandTeal transition">Financial Modeling AI</h4>
+                    <p class="text-gray-400 text-sm mb-4">Advanced Valuation & Forecasting.</p>
+                    <p class="text-gray-500 font-light leading-relaxed">Leverage artificial intelligence to build robust financial models. Understand DCF, LBO, and M&A modeling augmented by machine learning algorithms.</p>
+                </div>
+                <!-- Course 3 -->
+                <div class="bg-panelBg p-10 border border-gray-800 hover:border-brandTeal transition duration-300 group">
+                    <h4 class="text-2xl font-serif font-semibold mb-4 group-hover:text-brandTeal transition">SAP & ERP Intelligence</h4>
+                    <p class="text-gray-400 text-sm mb-4">Enterprise Resource Mastery.</p>
+                    <p class="text-gray-500 font-light leading-relaxed">Gain high-level proficiency in SAP systems and ERP intelligence. Streamline enterprise operations and leverage data for strategic corporate decision-making.</p>
+                </div>
+                <!-- Course 4 -->
+                <div class="bg-panelBg p-10 border border-gray-800 hover:border-brandTeal transition duration-300 group">
+                    <h4 class="text-2xl font-serif font-semibold mb-4 group-hover:text-brandTeal transition">Tax and Automation</h4>
+                    <p class="text-gray-400 text-sm mb-4">The Future of Compliance.</p>
+                    <p class="text-gray-500 font-light leading-relaxed">Discover how automation is revolutionizing tax compliance and strategy. Learn RPA (Robotic Process Automation) applications specific to global and Indian taxation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking / Pricing Section -->
+    <section id="booking" class="py-24 px-6 bg-panelBg">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-sm tracking-widest text-brandGold uppercase mb-2">Enrollment</h2>
+                <h3 class="text-4xl font-serif font-bold">Premium Access Plans</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- 30 Days -->
+                <div class="bg-darkBg p-10 border border-gray-800 flex flex-col text-center hover:-translate-y-2 transition duration-300">
+                    <h4 class="text-xl font-serif font-bold mb-2">Accelerator</h4>
+                    <div class="text-brandGold font-bold text-5xl my-6">₹9,999</div>
+                    <p class="text-gray-400 text-sm mb-8 tracking-widest uppercase">30 Days Access</p>
+                    <ul class="text-gray-500 text-sm space-y-4 mb-8 flex-grow text-left">
+                        <li class="flex items-center gap-2">✓ Full Course Library Access</li>
+                        <li class="flex items-center gap-2">✓ Standard Support</li>
+                        <li class="flex items-center gap-2">✓ Certification upon completion</li>
+                    </ul>
+                    <a href="https://wa.me/917204248002?text=I%20want%20to%20book%20the%2030%20Days%20Plan" class="block w-full py-3 bg-brandTeal text-white font-bold tracking-widest uppercase hover:bg-brandGold hover:text-black transition">Book Now</a>
+                </div>
+                
+                <!-- 60 Days -->
+                <div class="bg-darkBg p-10 border-2 border-brandGold flex flex-col text-center relative transform md:-translate-y-4 shadow-2xl shadow-brandGold/10">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-brandGold text-black text-xs font-bold px-4 py-1 uppercase tracking-widest">Most Popular</div>
+                    <h4 class="text-xl font-serif font-bold mb-2">Professional</h4>
+                    <div class="text-brandGold font-bold text-5xl my-6">₹16,999</div>
+                    <p class="text-gray-400 text-sm mb-8 tracking-widest uppercase">60 Days Access</p>
+                    <ul class="text-gray-500 text-sm space-y-4 mb-8 flex-grow text-left">
+                        <li class="flex items-center gap-2 text-white">✓ Full Course Library Access</li>
+                        <li class="flex items-center gap-2 text-white">✓ Priority 1-on-1 Mentorship</li>
+                        <li class="flex items-center gap-2 text-white">✓ Advanced SAP Modules included</li>
+                        <li class="flex items-center gap-2 text-white">✓ Certification upon completion</li>
+                    </ul>
+                    <a href="https://wa.me/917204248002?text=I%20want%20to%20book%20the%2060%20Days%20Plan" class="block w-full py-3 bg-brandGold text-black font-bold tracking-widest uppercase hover:bg-white transition">Book Now</a>
+                </div>
+                
+                <!-- 125 Days -->
+                <div class="bg-darkBg p-10 border border-gray-800 flex flex-col text-center hover:-translate-y-2 transition duration-300">
+                    <h4 class="text-xl font-serif font-bold mb-2">Executive</h4>
+                    <div class="text-brandGold font-bold text-5xl my-6">₹29,999</div>
+                    <p class="text-gray-400 text-sm mb-8 tracking-widest uppercase">125 Days Access</p>
+                    <ul class="text-gray-500 text-sm space-y-4 mb-8 flex-grow text-left">
+                        <li class="flex items-center gap-2">✓ Lifetime Material Access</li>
+                        <li class="flex items-center gap-2">✓ 24/7 Priority Support</li>
+                        <li class="flex items-center gap-2">✓ Industry Project Placement</li>
+                        <li class="flex items-center gap-2">✓ Elite Alumni Network</li>
+                    </ul>
+                    <a href="https://wa.me/917204248002?text=I%20want%20to%20book%20the%20125%20Days%20Plan" class="block w-full py-3 bg-brandTeal text-white font-bold tracking-widest uppercase hover:bg-brandGold hover:text-black transition">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Blog Section -->
+    <section id="blog" class="py-24 px-6 bg-darkBg">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-sm tracking-widest text-brandGold uppercase mb-2">Insights</h2>
+                    <h3 class="text-4xl font-serif font-bold">Latest in FinTech & AI</h3>
+                </div>
+                <a href="#" class="hidden md:inline-block text-sm uppercase tracking-widest text-brandTeal hover:text-brandGold transition">View All Articles →</a>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Blog Card 1 -->
+                <article class="group cursor-pointer">
+                    <div class="h-64 bg-gray-900 mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Data Analytics" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-70 group-hover:opacity-100">
+                    </div>
+                    <p class="text-brandGold text-xs uppercase tracking-widest mb-2">AI Analytics</p>
+                    <h4 class="text-xl font-serif font-semibold mb-3 group-hover:text-brandTeal transition">How Machine Learning is Reshaping Financial Forecasting in 2024</h4>
+                    <p class="text-gray-500 text-sm font-light">Discover the core algorithms driving the modern MBA's approach to market prediction...</p>
+                </article>
+                
+                <!-- Blog Card 2 -->
+                <article class="group cursor-pointer">
+                    <div class="h-64 bg-gray-900 mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="ERP Systems" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-70 group-hover:opacity-100">
+                    </div>
+                    <p class="text-brandGold text-xs uppercase tracking-widest mb-2">SAP & ERP</p>
+                    <h4 class="text-xl font-serif font-semibold mb-3 group-hover:text-brandTeal transition">Integrating ERP Intelligence with Tax Automation Protocols</h4>
+                    <p class="text-gray-500 text-sm font-light">A deep dive into streamlining corporate workflows while maintaining strict regulatory compliance...</p>
+                </article>
+                
+                <!-- Blog Card 3 -->
+                <article class="group cursor-pointer">
+                    <div class="h-64 bg-gray-900 mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop" alt="Fintech Stocks" class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-70 group-hover:opacity-100">
+                    </div>
+                    <p class="text-brandGold text-xs uppercase tracking-widest mb-2">Financial Modeling</p>
+                    <h4 class="text-xl font-serif font-semibold mb-3 group-hover:text-brandTeal transition">Advanced Modeling Techniques for B.Com Graduates</h4>
+                    <p class="text-gray-500 text-sm font-light">Step-by-step insights into moving from basic Excel to AI-driven financial modeling solutions...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-gray-900 text-center md:text-left">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 items-center">
+            <div>
+                <img src="logo.png" alt="Nammaweb Logo" class="h-10 w-auto inline-block md:block mb-4 grayscale opacity-50">
+                <p class="text-gray-600 text-sm">© 2024 Nammaweb. All rights reserved.</p>
+            </div>
+            <div class="mt-6 md:mt-0 md:text-right">
+                <p class="text-gray-500 text-sm">For inquiries, contact: <a href="mailto:info@nammaweb.com" class="text-brandGold hover:text-white transition">info@nammaweb.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/917204248002?text=Hello%20Nammaweb,%20I%20would%20like%20to%20know%20more%20about%20your%20courses." 
+       class="whatsapp-popup" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.101.824zM20.056 3.945C17.898 1.787 15.025.6 12.015.6c-6.082 0-11.026 4.945-11.026 11.025 0 2.051.572 4.015 1.611 5.727L1 23l5.808-1.498c1.62.96 3.493 1.474 5.405 1.475h.005c6.077 0 11.022-4.944 11.022-11.024 0-2.946-1.147-5.716-3.184-7.753z"/>
+        </svg>
+    </a>
+
+</body>
+</html>
